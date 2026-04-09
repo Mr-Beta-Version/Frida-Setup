@@ -28,3 +28,8 @@ push to tmp
 ```
 adb push "C:\Users\User\Downloads\frida-server-17.9.1-android-x86_64\frida-server-17.9.1-android-x86_64" /data/local/tmp/frida-server
 ```
+
+```
+chmod 700 frida-server
+./frida-server
+```
