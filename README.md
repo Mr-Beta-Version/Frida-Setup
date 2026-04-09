@@ -155,4 +155,9 @@ If successful, you’ll see a list of running processes on the emulator.
 pkill frida-server
 ```
 
+* Run script
+
+```bash
+frida -U -f com.package.name -l script.js
+```
 ---
